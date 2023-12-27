@@ -17,7 +17,7 @@ export default async function Home({
         <div className="m-[10rem]">
           <Switch lang={lang} />
           <div className="mt-2">
-            <h1>{dictionary.h1}</h1>
+            <h1 className="font-bold text-2xl">{dictionary.h1}</h1>
             <p>{dictionary.p}</p>
           </div>
         </div>
